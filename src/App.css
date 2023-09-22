@@ -1,0 +1,113 @@
+.flower {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.flower-alt {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+
+.flower-alt2 {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.petal {
+  position: absolute;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+
+.center {
+  position: absolute;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: 40px;
+  left: 40px;
+}
+
+
+.petal-alt {
+  position: initial;
+  background-color: rgb(221, 120, 37);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.petal-alt2 {
+  position: initial;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+.container{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.tallo{
+  background-color: green;
+  width: 30px;
+  height: 400px;
+}
+
+.centrar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.mensajito{
+  font-size: 10vw;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.texto-centro{
+  text-align: center;
+}
+
+.mid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.botoncito{
+  width: 300px;
+  height: 200px;
+  background-color: rgb(95, 27, 10);
+  border-color: transparent;
+}
+
+body{
+  background-image: url("/grass-red.gif");
+  background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
